@@ -16,7 +16,21 @@ body{background-color: #000000;}
 .span-yellow{color:#ffde59;}
 .span-green{color:#7ed957;}
 
-.div-container1{margin: 32px; }
+#div-container1{padding-right: 32px; padding-left: 32px;}
+#div-container2{padding-right: 32px; padding-left: 32px;}
+#div-container3{padding-right: 32px; padding-left: 32px;}
+#div-container4{padding-right: 32px; padding-left: 32px;}
+#div-container5{padding-right: 32px; padding-left: 32px;}
+#div-container6{padding-right: 32px; padding-left: 32px;}
+#div-container7{padding-right: 32px; padding-left: 32px;}
+#div-container8{padding-right: 32px; padding-left: 32px;}
+#div-container9{padding-right: 32px; padding-left: 32px;}
+#div-container10{padding-right: 32px; padding-left: 32px;}
+#div-container11{padding-right: 32px; padding-left: 32px;}
+
+
+
+.div-container1{margin: 32px;}
 .p-text-principal{color: #ffffff; font-size: 24px; font-family: Work Sans;}
 #p-pgf1{text-align: center;  font-weight: bold;}
 
@@ -45,7 +59,7 @@ body{background-color: #000000;}
 #img-patrocinadob{width: 30%; order: 2; margin-bottom: 40px;}
 #div-txt-patrocinado{width:60%; order: 1; margin-top: 60px; padding: 20px;}
 
-#div-container7{width: 100%; display: flex; text-align: center; justify-content: space-around; align-items: center; margin-top: 20px;}
+#div-container7{width: 100%; display: flex; padding-top: 20px; text-align: center; justify-content: space-around; align-items: center; margin-top: 20px;}
 #div-img-photogestao{width: 30%;}
 #div-container7a{width: 100% ;padding: 32px; text-align: center; display: flex;}
 #div-container7aa{display: none;}
@@ -58,6 +72,30 @@ body{background-color: #000000;}
 #divdoframe7-0{background: linear-gradient(330deg, rgba(0,0,0,1) 25%, rgba(42,40,160,1) 87%); }
 #div-container7c{width: 100%; text-align: center; display: flex; justify-content: center;}
 #div-titulo7a{margin-top: 32px; background: linear-gradient(55deg, rgba(6,49,106,1) 0%, rgba(1,23,55,1) 100%); text-align: center; color: #ffffff; padding: 6px; }
+
+#divdoframe7 .imgtxt {opacity: 0;transform: translateY(20px);transition: opacity 0.9s ease, transform 0.5s ease;}
+#divdoframe7.aparecer .imgtxt {opacity: 1;transform: translateY(0);}
+
+@keyframes fade {
+  from {opacity: 0;transform: translateY(20px); }
+  to {opacity: 1;transform: translateY(0);}
+}
+
+.aparecer .div-container8a {opacity: 0;transform: translateY(20px); animation: fade 1s ease forwards;}
+
+@keyframes tectonicAnimation { 
+0%, 100% { transform: translateX(-50px);  }
+ 50% {transform: translateX(50px);}
+}
+
+#div-container7c {
+  position: relative;
+  overflow: hidden;
+}
+
+#div-titulo7a {
+  position: relative;animation: tectonicAnimation 4s ease-in-out infinite;
+}
 
 #div-container8{display: flex; flex-wrap: wrap; text-align: center; justify-content: space-around;}
 #div-container8a{width: 40%; margin-top: 24px;}
@@ -78,6 +116,7 @@ body{background-color: #000000;}
 .iconsocial{width: 100px;}
 #img-sociallogoa{margin-right: 40px;}
 #img-logoprincipal{width: 70%;}
+#div-container11{width: 100%; justify-content: center; text-align: center;}
 #div-container11a{width: 100%;display: flex; justify-content: space-between; text-align: center;}
 
 
@@ -91,6 +130,18 @@ body{background-color: #000000;}
 #h1-text-center2{font-size: 48px;}
 .div-btn-action1 {position: absolute;top: 80%; left:50%; transform: translate(-50%, -50%);text-align: center; color: white;}
 #btn-action{font-size: 16px; white-space: nowrap;}
+
+#div-container1{padding-right: 16px; padding-left: 16px;}
+#div-container2{padding-right: 16px; padding-left: 16px;}
+#div-container3{padding-right: 16px; padding-left: 16px;}
+#div-container4{padding-right: 16px; padding-left: 16px;}
+#div-container5{padding-right: 16px; padding-left: 16px;}
+#div-container6{padding-right: 16px; padding-left: 16px;}
+#div-container7{padding-right: 16px; padding-left: 16px;}
+#div-container8{padding-right: 16px; padding-left: 16px;}
+#div-container9{padding-right: 16px; padding-left: 16px;}
+#div-container10{padding-right: 16px; padding-left: 16px;}
+#div-container11{padding-right: 16px; padding-left: 16px;}
 
 .div-container1{margin: 8px;}
 .p-text-principal{font-size: 18px;}
