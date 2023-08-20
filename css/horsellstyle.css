@@ -9,7 +9,7 @@ body{background-color: #000000;}
 #h1-text-center1{font-size: 24px;}
 #h1-text-center2{font-size: 72px; line-height: 1;}
 .div-btn-action1 {position: absolute;top: 90%; right: 0%; transform: translate(-50%, -50%);text-align: center;}
-#btn-action{color: white; font-size: 16px; line-height: 1.2; white-space: nowrap; background: linear-gradient(90deg, rgba(15,141,47,1) 10%, rgba(137,196,63,1) 80%); border-radius: 30px; padding-left: 32px; padding-right: 32px;} 
+#btn-action{color: white; font-size: 4vh; line-height: 1.2; white-space: nowrap; background: linear-gradient(90deg, rgba(15,141,47,1) 10%, rgba(137,196,63,1) 80%); border-radius: 30px; padding-left: 32px; padding-right: 32px;} 
 
 .span-red{color: red;}
 .span-blue{color: #38b6ff;}
@@ -31,12 +31,12 @@ body{background-color: #000000;}
 
 
 .div-container1{margin: 32px;}
-.p-text-principal{color: #ffffff; font-size: 24px; font-family: Work Sans;}
+.p-text-principal{color: #ffffff; font-size: 5vh; font-family: Work Sans;}
 #p-pgf1{text-align: center;  font-weight: bold;}
 
 .div-container2{display: flex; align-items: center; margin: 32px; text-align: center; font-weight: bold;}
 #div-phrase{justify-content: center;}
-#p-pgf2{font-size: 20px; text-align: right;}
+#p-pgf2{font-size: 3vh; text-align: right;}
 #div-img-photodiego{order: -1;}
 #img-photodiego{width: 400px;}
 
@@ -118,7 +118,6 @@ body{background-color: #000000;}
 #img-logoprincipal{width: 70%;}
 #div-container11{width: 100%; justify-content: center; text-align: center;}
 #div-container11a{width: 100%;display: flex; justify-content: space-between; text-align: center;}
-
 
 
 
